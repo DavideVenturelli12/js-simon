@@ -7,6 +7,28 @@
 
 body{
     font-family: sans-serif;
+    text-align: center;
 }
 
 /*content*/
+#container{
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.cella{
+    width: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    font-size: 30px;
+}
